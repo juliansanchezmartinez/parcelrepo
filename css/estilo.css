@@ -56,17 +56,17 @@
     .nav{
       height: 100%;
       display: flex;
-    flex-wrap: wrap;
+      flex-wrap: wrap;
       box-shadow: 3px 3px 13px 5px #11111129;
     }
     .nav-list{
-   display: flex;
-   flex-direction: column;
-   background-color: #444444;
-   width: 100%;
-   height: 100%;
-   overflow: hidden;
-   max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      background-color: #444444;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      max-width: 100%;
     }
 
   
@@ -83,24 +83,24 @@
   }
 
   .benefit1{
-   display: grid;
-   grid-template-columns: repeat(5, 1fr);
-   grid-template-rows: repeat(12, 1fr);
-   grid-template-areas: 
-   'lorem lorem b38 b39 b40'
-   'lorem lorem b9 b10 b11'
-   'b13 b14 b15 b16 b17'
-   'b19 b20 b21 b22 b23'
-   'b25 b26 b27 b28 b29'
-   'b31 b32 b33 b34 b35'
-   'b37 b58 b59 b60 b41'
-   'b42 b43 b44 b45 b46'
-   'b47 b48 b49 b50 b51'
-   'b52 mainbenefits mainbenefits mainbenefits b56'
-   'b57  beneficio1 beneficio2 beneficio3 b61'
-   'b62 b63 b64 b65 b66'
-   ;
-   
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-areas: 
+    'lorem lorem b38 b39 b40'
+    'lorem lorem b9 b10 b11'
+    'b13 b14 b15 b16 b17'
+    'b19 b20 b21 b22 b23'
+    'b25 b26 b27 b28 b29'
+    'b31 b32 b33 b34 b35'
+    'b37 b58 b59 b60 b41'
+    'b42 b43 b44 b45 b46'
+    'b47 b48 b49 b50 b51'
+    'b52 mainbenefits mainbenefits mainbenefits b56'
+    'b57  beneficio1 beneficio2 beneficio3 b61'
+    'b62 b63 b64 b65 b66'
+    ;
+    
   }
   
   @media(max-width:1500px){
@@ -135,9 +135,9 @@
         'b31 b32 b33 b34 b35'
         'b52 mainbenefits mainbenefits mainbenefits b56'
         'b57  beneficio1 beneficio2 beneficio3 b61'
-       
+        
         ;
-       
+        
   
       }
   }
@@ -168,7 +168,7 @@
     'b13 b14 b15 b16 b17'
     'b52 mainbenefits mainbenefits mainbenefits b56'
     'b57  beneficio1 beneficio2 beneficio3 b61'
-   
+    
     ;
   }
 }
@@ -198,7 +198,7 @@
   }
 
   .benefithijo h1{
-    font-size: 29px;
+    font-size: 24px;
     text-align: center;
   
   }
@@ -338,7 +338,7 @@ body.producto{
 
 .recurso6{
   padding-top: 160px;
- 
+  
 }
 
 .producto2{
@@ -532,6 +532,66 @@ padding-bottom: 7px;
 
 
 
+@media(max-width:769px){
+
+  .testimonio2 h2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .testimonio1{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    align-items: center;
+    margin: 0 auto;
+    
+  }
+
+
+
+
+  .descarga1 h3{
+    
+    display: flex;
+    font-size: 19px;
+    flex-wrap: wrap;
+    width: 200px;
+    margin-bottom: 103px;
+    text-align: center;
+  }
+
+  .btn1{
+    display: flex;
+    width: 140px;
+    font-size: 22px;
+  }
+  .recurso10{
+    display: flex;
+    max-height: 280px;
+    max-width: 240px;
+    margin: 0 auto;
+  }
+  
+  .descarga1 h3{
+    display: flex;
+    font-size: 19px;
+  }
+  
+  .btn1{
+    display: flex;
+    width: 104px;
+    font-size: 15px;
+  }
+
+
+}
+
+
+
+
 
 
 
@@ -621,6 +681,8 @@ padding-bottom: 7px;
 
 .recurso4oscuro{
   margin-top: -50px;
+  width: 100%;
+  height: 100%;
 }
 
 .testomonio2{
@@ -649,18 +711,48 @@ filter: invert(1);
   background-color: #444444;
 }
 
+
+@media(max-width:1000px){
+
+}
+
+
 /* estilo contacto */
+
+.recurso3main{
+  width: 100%;
+  text-align: center;
+}
+
+.recurso3{
+  justify-content: center;
+  
+
+}
+
 .contactomain{
   width: 500px;
 }
 
 
+  @media(max-width:1000px){
+
+    .contactomain {
+      width: auto;
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 450px;
+      margin: 0 auto;
+    }
+    .recurso3{
+      width: 100%;
+      height: 100%;
+    }
+        
+   
+      
 
 
-  .recurso3{
-    margin: 0 450px;
-        justify-content: center;
-    
   }
 
 
@@ -720,7 +812,7 @@ filter: invert(1);
   font-size: 15px;
   margin: 0 auto;
   text-align: center;
-  width: 300px
+  width: auto;
   
 }
   
