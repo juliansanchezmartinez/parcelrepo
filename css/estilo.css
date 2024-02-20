@@ -151,8 +151,8 @@
       'lorem lorem b9 b10 b11'
       'b42 b43 b44 b45 b46'
       'b13 b14 b15 b16 b17'
-      'b52 mainbenefits mainbenefits mainbenefits b56'
-      'b57  beneficio1 beneficio2 beneficio3 b61'
+      'mainbenefits mainbenefits mainbenefits b52 b56'
+      'beneficio1 beneficio2 beneficio3 b57 b61'
       ;
     }
 }
@@ -166,30 +166,14 @@
     'lorem lorem b9 b10 b11'
     'b13 b14 b15 b16 b17'
     'b13 b14 b15 b16 b17'
-    'b52 mainbenefits mainbenefits mainbenefits b56'
-    'b57  beneficio1 beneficio2 beneficio3 b61'
+    'mainbenefits mainbenefits mainbenefits b52 b56'
+    'beneficio1 beneficio2 beneficio3 b57 b61'
     
     ;
   }
 }
 
-@media(max-width:850px){
-  .benefit1{
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-areas: 
-    'lorem lorem b38 b39 b40'
-    'lorem lorem b9 b10 b11'
-    'b13 b14 b15 b16 b17'
-    'b52 mainbenefits mainbenefits mainbenefits b56'
-    'b57  beneficio1 beneficio2 beneficio3 b61'
-    
-    ;
-  }
-}
-
-
-@media(max-width:768px){
+@media(max-width:900px){
   .benefit1{
     display: flex;
     flex-direction: column;
@@ -290,7 +274,7 @@
     
   }
 
- @media(max-width:768px){
+ @media(max-width:900px){
       body.index{
         background-color: #f7f6f6;
         background-image: none;
