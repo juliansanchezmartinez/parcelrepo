@@ -1,0 +1,68 @@
+.navbar{
+    padding-top: 0px;
+    width: 100%;
+
+    .container-fluid{
+      padding-right: 0px;
+      padding-left: 0px;
+
+      
+    .navbar-toggler{
+      margin: 5px 5px;
+    }
+
+    .offcanvas {
+      background-color: $color-hover;
+      color: $color-fondo;
+    }
+    
+    .offcanvas-body{
+      padding: 0px;
+      top: 0px;
+      width: 100%;
+      background-color: $color-oscuro;
+      box-shadow: 3px 3px 13px 5px #11111129;
+      height: 60px;
+
+      .nav-link:hover{
+        color: $color-hover;
+      }
+
+      .nav-link{
+        font-weight: bold;
+        color: $color-claronav;
+        font-size: 20px;
+        text-decoration: none;
+        margin:5px 30px;
+      }
+      
+      
+      @media(max-width:768px){
+     .nav-link {
+       transition: auto;
+       padding-left: 10px;
+      }
+     }
+
+    }
+
+    }
+
+   
+    
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+

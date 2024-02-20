@@ -1,0 +1,23 @@
+
+@import 'base/reset';
+@import 'base/vars';
+@import 'components/navbar';
+@import 'components/footer';
+@import 'layout/index';
+@import 'layout/producto';
+@import 'layout/descargar';
+@import 'layout/faq';
+@import 'layout/contacto';
+
+@font-face {
+    font-family: 'SourceSans';
+    src: url('../assets/fonts/SourceSansPro-Bold.otf')
+  } 
+
+  html{
+    font-family: 'SourceSans', sans-serif;
+  }
+
+
+
+

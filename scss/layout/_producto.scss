@@ -1,0 +1,134 @@
+body.producto{
+    background-color: $color-fondo;
+  }
+  
+  .mainproducto{
+    text-align: center;
+  }
+  
+  
+  .producto{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+  .producto2:hover {
+    background-color: #f8f0e8;
+    box-shadow: 3px 3px 13px 5px #11111129;
+  }
+  
+  
+  .producto1 h1{
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 784px;
+    height: 262px;
+    color: $color-oscuro;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    
+  }
+  
+  .recurso6{
+    padding-top: 160px;
+    
+  }
+  
+  .producto2{
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 200px;
+    height: 200PX;
+    border: 2px solid $color-oscuro;
+    object-fit: cover;
+  } 
+  
+  .producto2 h4{
+  font-size: 25px;
+  color: $color-oscuro;
+  padding-bottom: 7px;
+  }
+  
+  .producto2 h5{
+    color: #606060;
+    opacity: 80%;
+    padding-bottom: 10px;
+  }
+  
+  
+  .compare{
+    text-align: center;
+  }
+  
+  .compare h4{
+    padding-top: 25px;
+    font-size: 25px;
+    color: $color-oscuro;
+  }
+  
+  .compare h5{
+    padding-top: 7px;
+    font-size: 18px;
+    color: $color-oscuro;
+    opacity: 85%;
+    padding-bottom: 10px;
+   
+  }
+  
+  .compare1{
+    padding-bottom: 20px;
+  }
+  
+  .compare a{
+    color: $color-claronav;
+    background-color: #fdb8b8;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 4px 3px;
+  }
+  
+  .btn{
+    color: $color-claronav;
+    background-color: $color-oscuro;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 4px 3px;
+  }
+  
+  
+  
+  .btn:hover{
+    background-color: $color-hover;
+  }
+  
+  @media(max-width:768px){
+    .producto{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+    }
+    .recurso6{
+      width: 224px;
+      height: 352px;
+    }
+  
+  .compare1 h1{
+    max-width: 200px;
+    align-content: center;
+    justify-content: center;
+      
+  
+  }
+  
+  .producto1 h1{
+    padding-bottom: 5px;
+    font-size: 21px;
+    max-width: 200px;
+    align-content: center;
+    justify-content: center;
+  }
+  }

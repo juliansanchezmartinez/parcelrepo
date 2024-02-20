@@ -1,0 +1,77 @@
+.faq1 h1{
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 784px;
+    color: $color-oscuro;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  
+  .faq1 h4{
+    padding-top: -50px;
+    margin: 0 auto;
+    width: 365px;
+    height: 34px;
+    color: $color-oscuro;
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 90px;
+    opacity: 80%;
+  }
+  
+  .faq2{
+    padding: 10px;
+  }
+  
+  .faq2 a{
+    margin: 10px auto;
+    display: block;
+    width: 750px;
+    color: $color-claronav;
+    background-color: $color-oscuro;
+    font-size: 25px;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 7px 10px;
+    
+  }
+  
+  .recurso4oscuro{
+    margin-top: -50px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .testomonio2{
+    display: block;
+    padding-top: 80px;
+    margin: 0 auto;
+    width: 662px;
+    height: 150px;
+    color: $color-oscuro;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    
+  }
+  
+  .accordion-button::after{
+  filter: invert(1);
+  }
+  .accordion-button:not(.collapsed){
+    color: $color-claronav;
+    background-color: $color-oscuro;
+  }
+  
+  .accordion-collapse{
+    color: $color-claronav;
+    background-color: $color-oscuro;
+  }
+  
+  
+  @media(max-width:1000px){
+  
+  }
+  
