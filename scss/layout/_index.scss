@@ -19,112 +19,8 @@
   'b62 b63 b64 b65 b66'
   ;
   
-}
-
-
-
-.benefits{
-    text-align: center;
-    width: 25%;
-    margin: 0 auto;
-  }
 
  
-  
-  @media(max-width:1500px){
-    .benefit1{
-      grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: repeat(9, 1fr);
-      grid-template-areas: 
-      'lorem lorem b38 b39 b40'
-      'lorem lorem b9 b10 b11'
-      'b13 b14 b15 b16 b17'
-      'b19 b20 b21 b22 b23'
-      'b25 b26 b27 b28 b29'
-      'b31 b32 b33 b34 b35'
-      'b37 b58 b59 b60 b41'
-      'b52 mainbenefits mainbenefits mainbenefits b56'
-      'b57  beneficio1 beneficio2 beneficio3 b61'
-      ;
-    }
-
-    }
-
-    @media(max-width:1350px){
-      .benefit1{
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(8, 1fr);
-        grid-template-areas: 
-        'lorem lorem b38 b39 b40'
-        'lorem lorem b9 b10 b11'
-        'b13 b14 b15 b16 b17'
-        'b19 b20 b21 b22 b23'
-        'b25 b26 b27 b28 b29'
-        'b31 b32 b33 b34 b35'
-        'b52 mainbenefits mainbenefits mainbenefits b56'
-        'b57  beneficio1 beneficio2 beneficio3 b61'
-        
-        ;
-        
-  
-      }
-  }
-
-  @media(max-width:1150px){
-    .benefit1{
-      grid-template-columns: repeat(5, 1fr);
-      grid-template-rows: repeat(6, 1fr);
-      grid-template-areas: 
-      'lorem lorem b38 b39 b40'
-      'lorem lorem b9 b10 b11'
-      'b42 b43 b44 b45 b46'
-      'b13 b14 b15 b16 b17'
-      'mainbenefits mainbenefits mainbenefits b52 b56'
-      'beneficio1 beneficio2 beneficio3 b57 b61'
-      ;
-    }
-}
-
-@media(max-width:1000px){
-  .benefit1{
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-areas: 
-    'lorem lorem b38 b39 b40'
-    'lorem lorem b9 b10 b11'
-    'b13 b14 b15 b16 b17'
-    'b13 b14 b15 b16 b17'
-    'mainbenefits mainbenefits mainbenefits b52 b56'
-    'beneficio1 beneficio2 beneficio3 b57 b61'
-    
-    ;
-  }
-}
-
-@media(max-width:900px){
-  .benefit1{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    ;
-  }
-
-  .benefithijo h1{
-    font-size: 24px;
-    text-align: center;
-  
-  }
-
-  .benefithijo{
-    min-width: 100px;
-    max-width: 100%;
-    align-content: center;
-    justify-content: center;
-  }
-}
-
-
-
   .benefithijo{
     padding: 10px;
     color: $color-oscuro;
@@ -134,15 +30,15 @@
     text-align: center;
   }
 
-  .benefithijo h2{
+  & h2{
     color: #181717;
   }
 
-  .benefithijo h3{
+  & h3{
     color: #181717;
   }
  
-  .benefithijo p{
+  & p{
     color: $color-oscuro;
     opacity: 80%;
     font-size: 19px;
@@ -189,24 +85,127 @@
     justify-self: center;
   }
 
-  
-
-  
-
-/* background index */
-  body.index{
-    background-color: $color-fondo;
-    background-image: url(../assets/backgroundclaro.png);
-    background-position: center 0;
-    background-repeat: no-repeat;
-    
+  .benefits{
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
   }
 
- @media(max-width:900px){
+}
+
+/* background index */
+body.index{
+  background-color: $color-fondo;
+  background-image: url(../assets/backgroundclaro.png);
+  background-position: center 0;
+  background-repeat: no-repeat;
+  
+}
+
+
+
+
+ 
+
+    /*mediaqueries*/
+
+
+    @media(max-width:900px){
       body.index{
         background-color: $color-fondo;
         background-image: none;
       }
       
     }
- 
+
+    @media(max-width:1500px){
+      .benefit1{
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        grid-template-areas: 
+        'lorem lorem b38 b39 b40'
+        'lorem lorem b9 b10 b11'
+        'b13 b14 b15 b16 b17'
+        'b19 b20 b21 b22 b23'
+        'b25 b26 b27 b28 b29'
+        'b31 b32 b33 b34 b35'
+        'b37 b58 b59 b60 b41'
+        'b52 mainbenefits mainbenefits mainbenefits b56'
+        'b57  beneficio1 beneficio2 beneficio3 b61'
+        ;
+      }
+  
+      }
+  
+      @media(max-width:1350px){
+        .benefit1{
+          grid-template-columns: repeat(5, 1fr);
+          grid-template-rows: repeat(8, 1fr);
+          grid-template-areas: 
+          'lorem lorem b38 b39 b40'
+          'lorem lorem b9 b10 b11'
+          'b13 b14 b15 b16 b17'
+          'b19 b20 b21 b22 b23'
+          'b25 b26 b27 b28 b29'
+          'b31 b32 b33 b34 b35'
+          'b52 mainbenefits mainbenefits mainbenefits b56'
+          'b57  beneficio1 beneficio2 beneficio3 b61'
+          
+          ;
+          
+    
+        }
+    }
+  
+    @media(max-width:1150px){
+      .benefit1{
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas: 
+        'lorem lorem b38 b39 b40'
+        'lorem lorem b9 b10 b11'
+        'b42 b43 b44 b45 b46'
+        'b13 b14 b15 b16 b17'
+        'mainbenefits mainbenefits mainbenefits b52 b56'
+        'beneficio1 beneficio2 beneficio3 b57 b61'
+        ;
+      }
+  }
+  
+  @media(max-width:1000px){
+    .benefit1{
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: 
+      'lorem lorem b38 b39 b40'
+      'lorem lorem b9 b10 b11'
+      'b13 b14 b15 b16 b17'
+      'b13 b14 b15 b16 b17'
+      'mainbenefits mainbenefits mainbenefits b52 b56'
+      'beneficio1 beneficio2 beneficio3 b57 b61'
+      
+      ;
+    }
+  }
+  
+  @media(max-width:900px){
+    .benefit1{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      ;
+    }
+  
+    .benefithijo h1{
+      font-size: 24px;
+      text-align: center;
+    
+    }
+  
+    .benefithijo{
+      min-width: 100px;
+      max-width: 100%;
+      align-content: center;
+      justify-content: center;
+    }
+  }

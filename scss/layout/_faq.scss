@@ -1,4 +1,5 @@
-.faq1 h1{
+.faq{
+  &1 h1{
     padding-top: 50px;
     margin: 0 auto;
     width: 784px;
@@ -9,7 +10,7 @@
     padding-bottom: 40px;
   }
   
-  .faq1 h4{
+  &1 h4{
     padding-top: -50px;
     margin: 0 auto;
     width: 365px;
@@ -21,11 +22,11 @@
     opacity: 80%;
   }
   
-  .faq2{
+  &2{
     padding: 10px;
   }
   
-  .faq2 a{
+  &2 a{
     margin: 10px auto;
     display: block;
     width: 750px;
@@ -37,6 +38,9 @@
     padding: 7px 10px;
     
   }
+}
+
+
   
   .recurso4oscuro{
     margin-top: -50px;
@@ -69,9 +73,22 @@
     color: $color-claronav;
     background-color: $color-oscuro;
   }
-  
-  
-  @media(max-width:1000px){
-  
+
+  .fs-6{
+    color: #e15b5b;
   }
+  
+  .accordion-collapse {
+    transition: 0.35s;
+  }
+
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+
+  .accordion-item:first-of-type .accordion-button {
+    transition: 0.35s;
+  }
+
+
   

@@ -5,8 +5,6 @@
   
   .recurso3{
     justify-content: center;
-    
-  
   }
   
   .contactomain{
@@ -14,6 +12,22 @@
     margin: 0 auto;
   }
   
+
+  .btn-primary {
+    background-color: $color-oscuro;
+    border-color: $color-oscuro;
+
+    &:hover {
+      background-color: $color-hover;
+      box-shadow: 3px 3px 13px 5px #11111129;
+      border-color: $color-hover;
+      transition: 0.2s;
+    }
+    
+  }
+
+  
+
   
     @media(max-width:1000px){
   

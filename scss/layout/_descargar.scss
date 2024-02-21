@@ -20,13 +20,16 @@
     border-radius: 5px;
     font-weight: 700;
     padding: 4px 3px;
+    transition: 0.15s;
   
+    &:hover{
+      background-color: $color-hover;
+      transition: 0.15s;
+    }
+    
   }
   
-  .btn1:hover{
-    background-color: $color-hover;
-  }
-  
+ 
   
   
   .descarga1 h3{
@@ -46,8 +49,55 @@
   .testimonio1{
     display: flex;
     justify-content: center;
+  }
+
+  
+  .testimonios{
+    width: 327px;
+    height: 284px;
+    padding: 8px 8px 8px 8px;
+    background: #F7F6F600;
+    border-color: #D6D6D6;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 9px 9px 9px 9px;
+
+
+    &:hover {
+      background-color: #f8f0e8;
+      box-shadow: 3px 3px 13px 5px #11111129;
+      transition: 0.2s;
+    }
+    
+    & p{
+      padding-top: 70px;
+      margin: 0 auto;
+      width: 213px;
+      height: 107px;
+      color: #7A7A7A;
+      font-weight: 400;
+      font-size: 15px;
+      text-align: center;
+      
+    }
+    
+    
+    & h5{
+      margin: 0 auto;
+      text-align: center;
+      border-bottom: 1px solid $color-oscuro;
+      width: 200px;
+      padding-bottom: 7px;
+      padding-top: 80px;
+      font-size: 14px;
+      color: #aaaaaa;
+      opacity: 80%
+    }
+  
     
   }
+  
+ 
   
   @media(max-width:1019px){
   
@@ -151,44 +201,4 @@
   
   }
   
-  .testimonios{
-    width: 327px;
-    height: 284px;
-    padding: 8px 8px 8px 8px;
-    background: #F7F6F600;
-    border-color: #D6D6D6;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 9px 9px 9px 9px;
-    
-  }
-  
-  .testimonios:hover {
-    background-color: #f8f0e8;
-    box-shadow: 3px 3px 13px 5px #11111129;
-  }
-  
-  .testimonios p{
-    padding-top: 70px;
-    margin: 0 auto;
-    width: 213px;
-    height: 107px;
-    color: #7A7A7A;
-    font-weight: 400;
-    font-size: 15px;
-    text-align: center;
-    
-  }
-  
-  
-  .testimonios h5{
-    margin: 0 auto;
-    text-align: center;
-    border-bottom: 1px solid $color-oscuro;
-    width: 200px;
-    padding-bottom: 7px;
-    padding-top: 80px;
-    font-size: 14px;
-    color: #aaaaaa;
-    opacity: 80%
-  }
+ 
