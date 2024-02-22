@@ -1,3 +1,5 @@
+@import '../base/utils';
+
 body.producto{
     background-color: $color-fondo;
   }
@@ -18,19 +20,12 @@ body.producto{
     
   }
   
-  .recurso6{
-    padding-top: 160px;
-    
-  }
-  
+
   
   .producto{
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
-
-    
-    
   }
   
   
@@ -113,29 +108,24 @@ body.producto{
   
   @media(max-width:768px){
     .producto{
-      display: flex;
-      flex-direction: column;
+      @include display(flex, column);
       justify-content: center;
       
     }
     .recurso6{
       width: 224px;
-      height: 352px;
+      height: 224px;
     }
   
   .compare1 h1{
+    @include content(center, center);
     max-width: 200px;
-    align-content: center;
-    justify-content: center;
-      
-  
   }
   
   .producto1 h1{
-    padding-bottom: 5px;
+    @include content(center, center);
+    padding-top: 35px;
     font-size: 21px;
-    max-width: 200px;
-    align-content: center;
-    justify-content: center;
+    max-width: 267px;
   }
   }

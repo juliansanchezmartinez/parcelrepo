@@ -29,6 +29,7 @@
 }
 .navbar .container-fluid .offcanvas-body .nav-link:hover {
   color: #815151;
+  transition: 0.25s;
 }
 .navbar .container-fluid .offcanvas-body .nav-link {
   font-weight: bold;
@@ -59,6 +60,7 @@
 }
 .footer-link:hover {
   color: #815151;
+  transition: 0.25s;
 }
 .footer-list li {
   display: inline-block;
@@ -99,10 +101,10 @@
   grid-template-areas: "lorem lorem b38 b39 b40" "lorem lorem b9 b10 b11" "b13 b14 b15 b16 b17" "b19 b20 b21 b22 b23" "b25 b26 b27 b28 b29" "b31 b32 b33 b34 b35" "b37 b58 b59 b60 b41" "b42 b43 b44 b45 b46" "b47 b48 b49 b50 b51" "b52 mainbenefits mainbenefits mainbenefits b56" "b57  beneficio1 beneficio2 beneficio3 b61" "b62 b63 b64 b65 b66";
 }
 .benefit1 .benefithijo {
-  padding: 10px;
-  color: #444444;
   display: flex;
   flex-direction: column;
+  padding: 10px;
+  color: #444444;
   gap: 15px;
   text-align: center;
 }
@@ -118,18 +120,18 @@
   font-size: 19px;
 }
 .benefit1 .b1 {
+  justify-self: center;
+  align-self: center;
   font-size: 40px;
   grid-area: lorem;
   max-height: 100%;
   min-height: 300px;
-  align-self: center;
-  justify-self: center;
   width: 600px;
   height: 300px;
 }
 .benefit1 .b2 {
-  align-self: center;
   justify-self: center;
+  align-self: center;
   font-size: 25px;
   padding: 20px;
   width: 600px;
@@ -139,18 +141,18 @@
 }
 .benefit1 .b3 {
   grid-area: beneficio1;
-  align-self: center;
   justify-self: center;
+  align-self: center;
 }
 .benefit1 .b4 {
   grid-area: beneficio2;
-  align-self: center;
   justify-self: center;
+  align-self: center;
 }
 .benefit1 .b5 {
   grid-area: beneficio3;
-  align-self: center;
   justify-self: center;
+  align-self: center;
 }
 .benefit1 .benefits {
   text-align: center;
@@ -212,10 +214,10 @@ body.index {
     text-align: center;
   }
   .benefithijo {
+    justify-content: center;
+    align-content: center;
     min-width: 100px;
     max-width: 100%;
-    align-content: center;
-    justify-content: center;
   }
 }
 body.producto {
@@ -235,10 +237,6 @@ body.producto {
   font-weight: 600;
   font-size: 40px;
   text-align: center;
-}
-
-.recurso6 {
-  padding-top: 160px;
 }
 
 .producto {
@@ -322,19 +320,19 @@ body.producto {
   }
   .recurso6 {
     width: 224px;
-    height: 352px;
+    height: 224px;
   }
   .compare1 h1 {
-    max-width: 200px;
-    align-content: center;
     justify-content: center;
+    align-content: center;
+    max-width: 200px;
   }
   .producto1 h1 {
-    padding-bottom: 5px;
-    font-size: 21px;
-    max-width: 200px;
-    align-content: center;
     justify-content: center;
+    align-content: center;
+    padding-top: 35px;
+    font-size: 21px;
+    max-width: 267px;
   }
 }
 .recurso10 {
@@ -454,9 +452,9 @@ body.producto {
 }
 @media (max-width: 769px) {
   .testimonio2 h2 {
-    align-items: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
     align-content: center;
   }
   .testimonio1 {

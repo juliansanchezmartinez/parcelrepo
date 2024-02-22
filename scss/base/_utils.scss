@@ -1,0 +1,14 @@
+@mixin self($justifyself,$alignself){
+    justify-self:$justifyself;
+    align-self:$alignself;
+}
+
+@mixin display($display,$flexdirection){
+    display:$display;
+    flex-direction:$flexdirection;
+}
+
+@mixin content($justifycontent,$aligncontent){
+    justify-content:$justifycontent;
+    align-content:$aligncontent;
+}

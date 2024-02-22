@@ -1,4 +1,4 @@
-
+@import '../base/utils';
 
 .benefit1{
   display: grid;
@@ -22,10 +22,9 @@
 
  
   .benefithijo{
+    @include display(flex, column);
     padding: 10px;
     color: $color-oscuro;
-    display: flex;
-    flex-direction: column;
     gap: 15px;
     text-align: center;
   }
@@ -45,20 +44,18 @@
   }
 
   .b1{
+    @include self(center, center);
     font-size: 40px;
     grid-area: lorem;
     max-height: 100%;
     min-height: 300px;
-    align-self: center;
-    justify-self: center;
     width: 600px;
     height: 300px;
   
   }
 
   .b2{
-    align-self: center;
-    justify-self: center;
+    @include self(center, center);
     font-size: 25px;
     padding: 20px;
     width: 600px;
@@ -69,20 +66,17 @@
   
   .b3{
     grid-area: beneficio1;
-    align-self: center;
-    justify-self: center;
+    @include self(center, center);
   }
 
   .b4{
     grid-area: beneficio2;
-    align-self: center;
-    justify-self: center;
+    @include self(center, center);
   }
 
   .b5{
     grid-area: beneficio3;
-    align-self: center;
-    justify-self: center;
+    @include self(center, center);
   }
 
   .benefits{
@@ -190,8 +184,7 @@ body.index{
   
   @media(max-width:900px){
     .benefit1{
-      display: flex;
-      flex-direction: column;
+      @include display(flex, column);
       width: 100%;
       ;
     }
@@ -203,9 +196,8 @@ body.index{
     }
   
     .benefithijo{
+      @include content(center, center);
       min-width: 100px;
       max-width: 100%;
-      align-content: center;
-      justify-content: center;
     }
   }
