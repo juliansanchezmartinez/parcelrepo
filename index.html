@@ -8,17 +8,15 @@
   
     <title>Parcel</title>
 
-  <!--link de animate css-->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
     <!--link de bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    
+      <!--link de AOS css-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="https://juliansanchezmartinez.github.io/parcelrepo/assets/recurso6.png" type="image/x-icon">
+
 
 
 
@@ -72,27 +70,27 @@
     <main>    
         
         <section class="benefit1">
-        <article class="benefithijo b1">
+        <article class="benefithijo b1" data-aos="fade-down">
           <h1>Descubre nuestro software innovador y eficiente para optimizar tu negocio. ¡Potencia tus operaciones con nuestra solución líder en el mercado!</h1>
         </article>
         
-        <article class="benefithijo b2">
-            <h2 class="animate__animated animate__backInDown">Beneficios Principales</h2>
+        <article class="benefithijo b2" data-aos="zoom-in">
+            <h2>Beneficios Principales</h2>
             <p>Nuestro software aumenta la productividad y eficiencia al automatizar tareas repetitivas, liberando tiempo para enfocarse en tareas estratégicas y creativas.</p>
         </article>
 
     
-        <article class="benefithijo b3">
+        <article class="benefithijo b3" data-aos="zoom-in">
           <h3>Software Intuitivo</h3>
           <p>Nuestro software intuitivo simplifica la experiencia del usuario, reduciendo el tiempo de aprendizaje y aumentando la eficiencia en la realización de tareas. </p>
         </article>
 
-        <article class="benefithijo b4">
+        <article class="benefithijo b4" data-aos="zoom-in">
           <h3>Soporte 24/7</h3>
           <p>Ofrecemos soporte técnico 24/7 para garantizar que nuestros clientes reciban asistencia inmediata en cualquier momento del día, brindando tranquilidad y confianza. </p>
         </article>
 
-        <article class="benefithijo b5">
+        <article class="benefithijo b5" data-aos="zoom-in">
           <h3>Compra Segura</h3>
           <p>Nuestra plataforma garantiza una compra segura con encriptación de datos y métodos de pago confiables, protegiendo la información personal y financiera del cliente. </p>
         </article>
@@ -122,5 +120,11 @@
       <!--javascript bootstrap-->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
       <!--javascript bootstrap-->
-   </body>
+
+      <!--javascript AOS CSS-->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    </body>
 </html>
